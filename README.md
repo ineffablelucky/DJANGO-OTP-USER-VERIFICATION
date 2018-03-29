@@ -19,3 +19,6 @@ OTP_TWILIO_NO_DELIVERY = False
 OTP_TWILIO_TOKEN_VALIDITY = 18000
 OTP_TWILIO_CHALLENGE_MESSAGE = 'Sent by SMS: {token}'
 OTP_TWILIO_TOKEN_TEMPLATE = 'Sent from Django OTP Test App. Token is {token}'
+
+
+Note: This app may not work in India as Twilio recently changed its policy to not to send sms to India. This option MAY be available in Paid Twilio Subscription.
